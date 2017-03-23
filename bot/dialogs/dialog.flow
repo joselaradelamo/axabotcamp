@@ -1,4 +1,6 @@
-/ -> salute(), hello, menu, goodbye
+/ -> salute(), hello, /askFullName, /menu, goodbye
 /claims -> claimsOptions
+/menu -> menu
+/fileClaim -> selectClaimType
 /askFullName -> namePrompt, checkfullname()
 /askLastName -> lastNamePrompt, checklastname()

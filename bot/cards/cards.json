@@ -74,5 +74,27 @@
         "tag": "/expectedCompensation"
       }
     ]
+  },
+  {
+    "name": "selectClaimType",
+    "type": "prompt",
+    "prompt": "choice",
+    "isMenu": true,
+    "text": "Which claim do you want to report?",
+    "variable": "dialog.claimType",
+    "options": [
+      {
+        "text": "Car",
+        "tag": "/pictureCar"
+      },
+      {
+        "text": "Building",
+        "tag": "/pictureBuilding"
+      },
+      {
+        "text": "Other",
+        "tag": "/pictureOther"
+      }
+    ]
   }
 ]
