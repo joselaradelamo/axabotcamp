@@ -1,4 +1,5 @@
-/ -> salute(), hello, menu, goodbye
+/ -> salute(), hello, /askFullName, /goodbye
 /claims -> claimsOptions
 /askFullName -> namePrompt, checkfullname()
 /askLastName -> lastNamePrompt, checklastname()
+/goodbye -> goodbye

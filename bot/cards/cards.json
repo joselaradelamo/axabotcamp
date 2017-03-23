@@ -9,19 +9,19 @@
     "type": "prompt",
     "prompt": "text",
     "text": "What is your name?",
-    "variable": "user.fullName"
+    "variable": "user.fullname"
   },
   {
     "name": "lastNamePrompt",
     "type": "prompt",
     "prompt": "text",
     "text": "What is your last name?",
-    "variable": "user.lastName"
+    "variable": "user.lastname"
   },
   {
     "name": "goodbye",
     "type": "text",
-    "text": "See you {{ message.user.fullName }}. firstName: {{message.user.firstName}}, lastName: {{message.user.lastName}}"
+    "text": "See you {{ user.fullname }}. firstName: {{user.firstname}}, lastName: {{user.lastname}}"
   },
   {
     "name": "menu",
