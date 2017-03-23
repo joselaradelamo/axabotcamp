@@ -1,10 +1,5 @@
 [
   {
-    "name": "welcome",
-    "type": "text",
-    "text": "Hello {{ message.user.name }}"
-  },
-  {
     "name": "hello",
     "type": "text",
     "text": "{{ dialog.salute }} ☺. I am here to help you."
@@ -14,11 +9,18 @@
     "type": "prompt",
     "prompt": "text",
     "text": "What is your name?",
-    "variable": "user.name"
+    "variable": "user.fullName"
+  },
+  {
+    "name": "lastNamePrompt",
+    "type": "prompt",
+    "prompt": "text",
+    "text": "What is your last name?",
+    "variable": "user.lastName"
   },
   {
     "name": "goodbye",
     "type": "text",
-    "text": "See you."
+    "text": "See you {{ message.user.fullName }}. firstName: {{message.user.firstName}}, lastName: {{message.user.lastName}}"
   }
 ]
