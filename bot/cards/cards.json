@@ -22,5 +22,57 @@
     "name": "goodbye",
     "type": "text",
     "text": "See you {{ message.user.fullName }}. firstName: {{message.user.firstName}}, lastName: {{message.user.lastName}}"
+  },
+  {
+    "name": "menu",
+    "type": "prompt",
+    "prompt": "choice",
+    "isMenu": true,
+    "text": "I can help you in the following categories",
+    "variable": "dialog.menuOption",
+    "options": [
+      {
+        "text": "Claims",
+        "tag": "/claims"
+      },
+      {
+        "text": "Your agent",
+        "tag": "/agents"
+      },
+      {
+        "text": "Your policies",
+        "tag": "/policies"
+      },
+      {
+        "text": "Get a quote",
+        "tag": "/quote"
+      },
+      {
+        "text": "Further services",
+        "tag": "/services"
+      }
+    ]
+  },
+  {
+    "name": "claimsOptions",
+    "type": "prompt",
+    "prompt": "choice",
+    "isMenu": true,
+    "text": "Select the option for the claims that you want",
+    "variable": "dialog.claimsOptions",
+    "options": [
+      {
+        "text": "File a claim",
+        "tag": "/fileClaim"
+      },
+      {
+        "text": "Show my claims",
+        "tag": "/showClaims"
+      },
+      {
+        "text": "Expected compensation",
+        "tag": "/expectedCompensation"
+      }
+    ]
   }
 ]
