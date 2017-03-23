@@ -3,5 +3,10 @@
     "name": "welcome",
     "type": "text",
     "text": "Hello {{ message.user.name }}"
+  },
+  {
+    "name": "hello",
+    "type": "text",
+    "text": "Hello ☺. I am here to help you."
   }
 ]
