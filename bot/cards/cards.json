@@ -8,5 +8,17 @@
     "name": "hello",
     "type": "text",
     "text": "Hello ☺. I am here to help you."
+  },
+  {
+    "name": "namePrompt",
+    "type": "prompt",
+    "prompt": "text",
+    "text": "What is your name?",
+    "variable": "user.name"
+  },
+  {
+    "name": "goodbye",
+    "type": "text",
+    "text": "See you."
   }
 ]
