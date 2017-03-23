@@ -7,7 +7,7 @@
   {
     "name": "hello",
     "type": "text",
-    "text": "Hello ☺. I am here to help you."
+    "text": "{{ dialog.salute }} ☺. I am here to help you."
   },
   {
     "name": "namePrompt",

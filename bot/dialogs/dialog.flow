@@ -1,2 +1,1 @@
-/ -> hello, namePrompt, goodbye
-
+/ -> salute(), hello, namePrompt, goodbye
