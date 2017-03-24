@@ -140,15 +140,36 @@
     "name": "analysisTextCarYes",
     "type": "prompt",
     "prompt": "choice",
+    "isMenu": true,
     "text": "Your car insurance covers your damage. We see that the window of your car is broken (1) and identified a bump (2).",
     "options": [
       {
         "text": "Fix it for me",
-        "tag": "yes"
+        "tag": "/fixItForMe"
       },
       {
         "text": "Reimburse me",
         "tag": "no"
+      }
+    ]
+  },
+  {
+    "name": "fixItForMeCard",
+    "type": "prompt",
+    "prompt": "choice",
+    "text": "",
+    "options": [
+      {
+        "text": "Windshield and bump",
+        "tag": "windshield_bump"
+      },
+      {
+        "text": "Only the windshield",
+        "tag": "windshield"
+      },
+      {
+        "text": "Only the bump",
+        "tag": "bump"
       }
     ]
   },
@@ -181,5 +202,51 @@
     "name": "analysisTextOther",
     "type": "text",
     "text": "carcarcar"
+  },
+  {
+    "name": "datePicker",
+    "type": "prompt",
+    "prompt": "choice",
+    "text": "What of these dates according to your calendar would suit you best to pickup your car at your place?",
+    "variable": "user.datePicked",
+    "options": [
+      {
+        "text": "Monday 27-03-17  08:00",
+        "tag": "Monday 27-03-17  08:00"
+      },
+      {
+        "text": "Tuesday 29-03-17  11:30",
+        "tag": "Tuesday  29-03-17  11:30"
+      },
+      {
+        "text": "Wednesday 31-03-17  09:00",
+        "tag": "Wednesday 31-03-17  09:00"
+      },
+      {
+        "text": "Other date, time and place",
+        "tag": "other"
+      }
+    ]
+  },
+   {
+    "name": "askDateCard",
+    "type": "prompt",
+    "prompt": "time",
+    "text": "Choose a date, time and place (office, other)",
+    "variable": "user.datePicked"
+  },
+  {
+    "name": "claimResult",
+    "type": "hero",
+    "title": "Claim reported!",
+    "image": "{{user.picture}}",
+    "text": "Very well :-).  We added the event to your calendar. You will find all the details of your claim below.",
+    "buttons": [
+      {
+        "title": "See claim details",
+        "type": "openurl",
+        "url": "test"
+      }
+    ]
   }
 ]

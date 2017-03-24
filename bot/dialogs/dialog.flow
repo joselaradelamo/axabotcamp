@@ -11,4 +11,8 @@
 /showAnalysisBuilding -> analysisImageBuilding, analysisTextBuilding
 /showAnalysisOther -> analysisImageOther, analysisTextOther
 /analysisCarYes -> analysisTextCarYes
+/fixItForMe -> fixItForMeCard, /pickDate
+/pickDate -> datePicker, checkdate(), /claimDone
+/askDate -> askDateCard, /claimDone
+/claimDone -> claimResult
 /goodbye -> goodbye
