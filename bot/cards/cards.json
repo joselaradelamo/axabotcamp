@@ -21,7 +21,7 @@
   {
     "name": "goodbye",
     "type": "text",
-    "text": "I hope that I have helped {{ user.firstname }}. If you have more"
+    "text": "I hope that I have helped you today, {{ user.firstname }}. If you have any more questions do not hesitate to contact me 👋"
   },
   {
     "name": "menu",
