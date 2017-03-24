@@ -37,19 +37,19 @@
       },
       {
         "text": "Your agent",
-        "tag": "/agents"
+        "tag": "/sorry"
       },
       {
         "text": "Your policies",
-        "tag": "/policies"
+        "tag": "/sorry"
       },
       {
         "text": "Get a quote",
-        "tag": "/quote"
+        "tag": "/sorry"
       },
       {
         "text": "Further services",
-        "tag": "/services"
+        "tag": "/sorry"
       }
     ]
   },
