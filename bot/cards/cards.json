@@ -28,7 +28,7 @@
     "type": "prompt",
     "prompt": "choice",
     "isMenu": true,
-    "text": "I can help you in the following categories",
+    "text": "Very well {{ user.firstname}}, I can help you in the following categories",
     "variable": "dialog.menuOption",
     "options": [
       {
@@ -81,20 +81,27 @@
     "prompt": "choice",
     "isMenu": true,
     "text": "Which claim do you want to report?",
-    "variable": "dialog.claimType",
+    "variable": "user.claimType",
     "options": [
       {
         "text": "Car",
-        "tag": "/pictureCar"
+        "tag": "/picture"
       },
       {
         "text": "Building",
-        "tag": "/pictureBuilding"
+        "tag": "/picture"
       },
       {
         "text": "Other",
-        "tag": "/pictureOther"
+        "tag": "/picture"
       }
     ]
+  },
+  {
+    "name": "picturePrompt",
+    "type": "prompt",
+    "prompt": "attachment",
+    "text": "Please take a photo of your {{ user.claimType }}",
+    "variable": "user.picture"
   }
 ]
