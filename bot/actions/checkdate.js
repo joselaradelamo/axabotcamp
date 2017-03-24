@@ -3,7 +3,7 @@ module.exports = function(session, args, next) {
     if (values && values.datePicked && values.datePicked === 'other') {
       session.beginDialog('/askDate');
     } else {
-      next();
+      session.beginDialog('/claimDone');
     }
   }.bind(this));
 }

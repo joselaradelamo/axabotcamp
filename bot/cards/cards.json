@@ -132,7 +132,7 @@
       },
       {
         "text": "No",
-        "tag": "no"
+        "tag": "sorry"
       }
     ]
   },
@@ -238,15 +238,21 @@
   {
     "name": "claimResult",
     "type": "hero",
-    "title": "Claim reported!",
-    "image": "{{user.picture}}",
-    "text": "Very well :-).  We added the event to your calendar. You will find all the details of your claim below.",
+    "title": "✅ Claim reported!",
+    "subtitle": "{{user.fullname}} - {{user.claimType}} claim, {{user.datePicked}}",
+    "image": "{{user.picture[0].contentUrl}}",
+    "text": "Very well! 😄 We added the event to your calendar. You will find all the details of your claim below.",
     "buttons": [
       {
         "title": "See claim details",
         "type": "openurl",
-        "url": "test"
+        "url": "https://www.axa.com.sg/pdf/claims/travel/travel_claim_form.pdf"
       }
     ]
+  },
+  {
+    "name": "sorry",
+    "type": "text",
+    "text": "I'm sorry. I don't know the answer to this right now. I will go and find out. If you want a quick answer, please call 0330 159 1508 ☎☺️"
   }
 ]
