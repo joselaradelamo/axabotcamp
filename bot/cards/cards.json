@@ -106,6 +106,6 @@
   {
     "name": "analyzingCard",
     "type": "text",
-    "text": "Analyzing your {{ user.claimType }}... Please wait"
+    "text": "Analyzing your {{ user.claimType }}... Please wait ⏳"
   }
 ]
