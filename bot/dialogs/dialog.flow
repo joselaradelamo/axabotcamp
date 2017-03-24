@@ -1,4 +1,4 @@
-/ -> salute(), hello, /askFullName, /menu, /goodbye
+/ -> salute(), hello, /askFullName, /menu
 /askFullName -> namePrompt, checkfullname()
 /askLastName -> lastNamePrompt, checklastname()
 /claims -> claimsOptions
@@ -12,7 +12,10 @@
 /showAnalysisOther -> analysisImageOther, analysisTextOther
 /analysisCarYes -> analysisTextCarYes
 /fixItForMe -> fixItForMeCard, /pickDate
+/reimburseMe -> reimburseMeCard
 /pickDate -> datePicker, checkdate(), /claimDone
 /askDate -> askDateCard, /claimDone
 /claimDone -> claimResult
+/payIt -> payItCard, /goodbye
+/payItAnother -> payItAnotherCard, /payIt
 /goodbye -> goodbye

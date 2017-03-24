@@ -149,7 +149,7 @@
       },
       {
         "text": "Reimburse me",
-        "tag": "no"
+        "tag": "/reimburseMe"
       }
     ]
   },
@@ -228,7 +228,7 @@
       }
     ]
   },
-   {
+  {
     "name": "askDateCard",
     "type": "prompt",
     "prompt": "time",
@@ -248,5 +248,41 @@
         "url": "test"
       }
     ]
+  },
+  {
+    "name": "reimburseMeCard",
+    "type": "prompt",
+    "prompt": "choice",
+    "text": "If you choose not to fix your car we can reimburse your the following amount: +\nWindshileld EUR 300. -\n+Bump EUR 600. -\n-Deductible EUR 200. -\nTotal reimbursement EUR 700. - ",
+    "variable": "user.reimburse",
+    "options": [
+      {
+        "text": "Pay it to my bankacount (IBAN: CH20 0900 0000 8202 1549 0) ",
+        "tag": "/payIt"
+      },
+      {
+        "text": "Pay it to another account",
+        "tag": "/payItAnother"
+      },
+      {
+        "text": "No thanks, I was just wondering :-) ",
+        "tag": "/goodbye"
+      }
+    ]
+  },
+  {
+    "name": "payItCard",
+    "type": "hero",
+    "title": "Pay It",
+    "subtitle": "",
+    "image": "",
+    "text": "Very well :-). You will receive your reimbursement in the follwowing days. Please finde all the details of your reimbursement here."
+  },
+  {
+    "name": "payItAnotherCard",
+    "type": "prompt",
+    "prompt": "text",
+    "text": "Please add your account information",
+    "variable": "user.account"
   }
 ]
