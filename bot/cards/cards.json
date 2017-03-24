@@ -21,7 +21,7 @@
   {
     "name": "goodbye",
     "type": "text",
-    "text": "See you {{ user.fullname }}. firstName: {{user.firstname}}, lastName: {{user.lastname}}"
+    "text": "I hope that I have helped {{ user.firstname }}. If you have more"
   },
   {
     "name": "menu",
