@@ -2,7 +2,7 @@
 /askFullName -> namePrompt, checkfullname()
 /askLastName -> lastNamePrompt, checklastname()
 /claims -> claimsOptions
-/menu -> menu
+/menu* -> menu
 /fileClaim -> selectClaimType, /picture
 /picture -> picturePrompt, /analyzing
 /analyzing -> analyzingCard, doanalyzing()

@@ -114,14 +114,25 @@
     "images": [
       {
         "contentType": "image/jpeg",
-        "contentUrl": "http://localhost:3978/bot/images/car_recognition.jpg"
+        "contentUrl": "https://lh3.googleusercontent.com/3QStxKL7Q7uuDiq7h4nVeqnWTS5uDhV8CXnsuVtayzhztN08FTtV1ziMsHt1EQTbp8WBkpDxtxelcW4__xLy7FBZl5TCaPpO7wzpd4kdXAfoiQVx76ds13M_0GC7HLekOZ2Bu5PBtdXmWrNIR2mOXYf-lGBtqNbzgxXGigYpyfkTXDeagfll9EMl86OQkQjZH_rkrjoblaC-13F532geO0yw7f2LT-5Pn33wFrcI623iSbFayIe7iKrOQxwIDj6APLRl3Z5Q6A127Jmv2EEuNU2Io6omEmVtSf3Xvtq6a-r7153DAqL8tgmeuTpq--KJiMmMocAFheULxWuGerSoy-2WzlzL0B7_P93svwiOsOZOFnd4kOHvPyqbShcicdMR8WilY1C6lvDr2kgGXB1zqoDOMT2kvhkYRpgMIm2J60Kk7fP8Hcmb_lzZ4uV4wqCw5Kpz5GrfT3LbpTC1vkBXhGNmgEvDhOZWZ3aQnrzsrH0IDH2AHTd5RgRvAESS2UiqdPbeK1NgkuZSpmExPePAuWUEutxBw67IMxUzTtzcz_qaPZaiqOZ8OIU1ijU9dUTHy5jtLvEW-D8Zo0gijpVecMAKh34l6tuB7NEFV6QL97yP5lTJ3Aw97a3VH7lf3p4FLZ_TBk6q82qpywPLSZ_YUJzqbv_sEXMQsxlgVGDuFg=w548-h411-no"
       }
     ]
   },
   {
     "name": "analysisTextCar",
-    "type": "text",
-    "text": "carcarcar"
+    "type": "prompt",
+    "prompt": "text",
+    "text": "Could this be your car HYUNDAI SANTRO (MH 02 LA 169U)?",
+    "options": [
+      {
+        "text": "Yes",
+        "tag": "yes"
+      },
+      {
+        "text": "No",
+        "tag": "no"
+      }
+    ]
   },
   {
     "name": "analysisImageBuilding",
