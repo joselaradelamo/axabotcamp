@@ -5,4 +5,6 @@
 /menu -> menu
 /fileClaim -> selectClaimType, /picture
 /picture -> picturePrompt, checkpicture()
+/analyzing -> analyzingCard, doanalazing(), /showAnalysis
+/showAnalysis -> analysisImage, analysisText
 /goodbye -> goodbye
