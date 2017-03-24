@@ -12,8 +12,12 @@
 /showAnalysisOther -> analysisImageOther, analysisTextOther
 /analysisCarYes -> analysisTextCarYes
 /fixItForMe -> fixItForMeCard, /pickDate
+/reimburseMe -> reimburseMeCard
 /pickDate -> datePicker, checkdate()
 /askDate -> askDateCard, /claimDone
 /claimDone -> claimResult, goodbye
+/payIt -> payItCard, /goodbye
+/payItAnother -> payItAnotherCard, /payIt
 /goodbye -> goodbye
 /sorry -> sorry
+
