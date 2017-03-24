@@ -6,7 +6,9 @@
 /fileClaim -> selectClaimType, /picture
 /picture -> picturePrompt, /analyzing
 /analyzing -> analyzingCard, doanalyzing()
-/showAnalysisCar -> analysisImageCar, analysisTextCar
+/showAnalysisCar -> analysisImageCar, /showAnalysisPromptCar
+/showAnalysisPromptCar -> analysisTextCar
 /showAnalysisBuilding -> analysisImageBuilding, analysisTextBuilding
 /showAnalysisOther -> analysisImageOther, analysisTextOther
+/analysisCarYes -> analysisTextCarYes
 /goodbye -> goodbye
