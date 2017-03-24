@@ -79,21 +79,20 @@
     "name": "selectClaimType",
     "type": "prompt",
     "prompt": "choice",
-    "isMenu": true,
     "text": "Which claim do you want to report?",
     "variable": "user.claimType",
     "options": [
       {
         "text": "Car",
-        "tag": "/picture"
+        "tag": "car"
       },
       {
         "text": "Building",
-        "tag": "/picture"
+        "tag": "building"
       },
       {
         "text": "Other",
-        "tag": "/picture"
+        "tag": "other"
       }
     ]
   },

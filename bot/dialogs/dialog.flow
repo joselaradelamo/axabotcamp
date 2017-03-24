@@ -3,6 +3,6 @@
 /askLastName -> lastNamePrompt, checklastname()
 /claims -> claimsOptions
 /menu -> menu
-/fileClaim -> selectClaimType
+/fileClaim -> selectClaimType, /picture
 /picture -> picturePrompt, checkpicture()
 /goodbye -> goodbye
