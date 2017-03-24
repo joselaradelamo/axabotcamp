@@ -255,7 +255,7 @@
     "type": "text",
     "text": "I'm sorry. I don't know the answer to this right now. I will go and find out. If you want a quick answer, please call 0330 159 1508 ☎☺️"
   },
-  { 
+  {
     "name": "reimburseMeCard",
     "type": "prompt",
     "prompt": "choice",
@@ -283,7 +283,14 @@
     "title": "Pay It",
     "subtitle": "",
     "image": "",
-    "text": "Very well :-). You will receive your reimbursement in the follwowing days. Please finde all the details of your reimbursement here."
+    "text": "Very well :-). You will receive your reimbursement in the follwowing days. Please find all the details of your reimbursement here.",
+    "buttons": [
+      {
+        "title": "See reimbursement details",
+        "type": "openurl",
+        "url": "https://www.axa.com.sg/pdf/claims/travel/travel_claim_form.pdf"
+      }
+    ]
   },
   {
     "name": "payItAnotherCard",
