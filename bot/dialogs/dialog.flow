@@ -4,7 +4,9 @@
 /claims -> claimsOptions
 /menu -> menu
 /fileClaim -> selectClaimType, /picture
-/picture -> picturePrompt, checkpicture()
-/analyzing -> analyzingCard, doanalazing(), /showAnalysis
-/showAnalysis -> analysisImage, analysisText
+/picture -> picturePrompt, /analyzing
+/analyzing -> analyzingCard, doanalyzing()
+/showAnalysisCar -> analysisImageCar, analysisTextCar
+/showAnalysisBuilding -> analysisImageBuilding, analysisTextBuilding
+/showAnalysisOther -> analysisImageOther, analysisTextOther
 /goodbye -> goodbye

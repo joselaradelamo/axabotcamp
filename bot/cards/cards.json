@@ -107,5 +107,50 @@
     "name": "analyzingCard",
     "type": "text",
     "text": "Analyzing your {{ user.claimType }}... Please wait"
+  },
+  {
+    "name": "analysisImageCar",
+    "type": "image",
+    "images": [
+      {
+        "contentType": "image/jpeg",
+        "contentUrl": "http://localhost:3978/bot/images/car_recognition.jpg"
+      }
+    ]
+  },
+  {
+    "name": "analysisTextCar",
+    "type": "text",
+    "text": "carcarcar"
+  },
+  {
+    "name": "analysisImageBuilding",
+    "type": "image",
+    "images": [
+      {
+        "contentType": "image/jpeg",
+        "contentUrl": "http://localhost:3978/bot/images/car_recognition.jpg"
+      }
+    ]
+  },
+  {
+    "name": "analysisTextBuilding",
+    "type": "text",
+    "text": "carcarcar"
+  },
+  {
+    "name": "analysisImageOther",
+    "type": "image",
+    "images": [
+      {
+        "contentType": "image/jpeg",
+        "contentUrl": "http://localhost:3978/bot/images/car_recognition.jpg"
+      }
+    ]
+  },
+  {
+    "name": "analysisTextOther",
+    "type": "text",
+    "text": "carcarcar"
   }
 ]
