@@ -157,7 +157,7 @@
     "name": "fixItForMeCard",
     "type": "prompt",
     "prompt": "choice",
-    "text": "",
+    "text": "What do you want to fix?",
     "options": [
       {
         "text": "Windshield and bump",
